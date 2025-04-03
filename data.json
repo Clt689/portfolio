@@ -1,29 +1,30 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "Nadnerde"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "이한빈",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "kx1302@naver.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/Clt689" },
+      { "id": 2, "name": "Blog", "href": "https://velog.io/@nadnerde" },
+      { "id": 3, "name": "LinkedIn", "href": "https://www.linkedin.com/in/nadnerde/" }
     ]
   },
 
   "workExperience": [
     {
       "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
+      "name": "TeamSparta",
+      "position": "Web Publisher Intern",
+      "period": ["2024. 09", "2024. 12"]
     },
     {
       "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
+      "name": "Inzisoft",
+      "position": "Software Engineer",
+      "period": ["2025. 01", "now"]
     }
   ],
 
@@ -83,25 +84,19 @@
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
-    },
-    {
-      "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "정보처리기사",
+      "date": "2024. 09. 10",
+      "organizer": "한국산업인력공단"
     }
   ],
 
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "오아시스 특별상 수상",
+      "date": "2023. 08. 31",
+      "organizer": "광주정보문화산업진흥원",
+      "description": "호남지역 문제 해결을 위한 서비스 개발이라는 주제로 '페이팅'이라는 반려동물 커뮤니티 서비스를 출품하여 수상"
     }
   ]
 }
