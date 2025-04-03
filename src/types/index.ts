@@ -8,6 +8,7 @@ export interface InformationProps {
 export interface WorkExperienceProps {
   id: number;
   name: string;
+  team: string;
   description?: string;
   position: string;
   period: string[];

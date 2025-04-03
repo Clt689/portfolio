@@ -4,7 +4,14 @@ import remarkGfm from "remark-gfm";
 
 import { WorkExperienceProps } from "@/types";
 
-const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkExperienceProps) => {
+const WorkExperienceItem = ({
+  name,
+  team,
+  position,
+  period,
+  markdown,
+  imgSrc,
+}: WorkExperienceProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
       <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
@@ -20,6 +27,7 @@ const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkEx
         <div className="w-48">
           <h3>{name}</h3>
           <div className="flex flex-col">
+            <strong className="mt-1 mb-1">{team}</strong>
             <span className="m-0">{position}</span>
             <span>{`${period[0]} - ${period[1]}`}</span>
           </div>

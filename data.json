@@ -17,12 +17,14 @@
     {
       "id": 0,
       "name": "TeamSparta",
+      "team": "B2B팀",
       "position": "Web Publisher Intern",
       "period": ["2024. 09", "2024. 12"]
     },
     {
       "id": 1,
       "name": "Inzisoft",
+      "team": "개발1팀",
       "position": "Software Engineer",
       "period": ["2025. 01", "now"]
     }
