@@ -37,6 +37,13 @@ export interface AwardProps {
   description: string;
 }
 
+export interface CertificateProps {
+  name: string;
+  date: string;
+  organizer: string;
+  imgSrc?: string;
+}
+
 export interface DataProps {
   resumeTitle: {
     title: string;

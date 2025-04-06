@@ -13,7 +13,13 @@ import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 // import ScrollProgress from "@/components/ScrollProgress";
 import WorkExperience from "@/components/WorkExperience";
-import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
+import {
+  DataProps,
+  InformationProps,
+  ProjectProps,
+  WorkExperienceProps,
+  CertificateProps,
+} from "@/types";
 import Award from "@/components/Award";
 
 const Home: NextPage<DataProps> = ({
@@ -69,12 +75,20 @@ export const getStaticProps = async () => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
   });
 
+  const certificateWithData = objectData.certificate.map(async (item: CertificateProps) => {
+    return getImgSrc({
+      section: "certificate",
+      item: await getMd({ section: "certificate", item }),
+    });
+  });
+
   return {
     props: {
       ...objectData,
       information: await informationWithData,
       workExperience: await Promise.all(workExperienceWithData),
       project: await Promise.all(projectWithData),
+      certificate: await Promise.all(certificateWithData),
     },
   };
 };
@@ -84,7 +98,7 @@ const getMd = async ({
   item,
 }: {
   section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
+  item: InformationProps | ProjectProps | WorkExperienceProps | CertificateProps;
 }) => {
   try {
     const markdownModule = await import(
@@ -102,7 +116,7 @@ const getImgSrc = async ({
   item,
 }: {
   section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
+  item: InformationProps | ProjectProps | WorkExperienceProps | CertificateProps;
 }) => {
   const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
   const filePath = path.join(process.cwd(), "public", imgSrc);
