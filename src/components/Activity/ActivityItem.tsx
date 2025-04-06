@@ -14,6 +14,13 @@ const ActivityItem = ({
           <h3>{name}</h3>
           <span>{`${period[0]}${period[1] ? " - " + period[1] : ""}`}</span>
         </div>
+        <a
+          href="https://github.com/Clt689/ModernJS_Deepdive"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          스터디 Repository ↗
+        </a>
         <span className="whitespace-pre-wrap">{`${description}`}</span>
       </div>
     </div>
