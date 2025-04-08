@@ -52,20 +52,7 @@
     }
   ],
 
-  "education": [
-    {
-      "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
-    }
-  ],
+  "education": [],
 
   "certificate": [
     {
