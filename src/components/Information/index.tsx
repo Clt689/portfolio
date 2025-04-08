@@ -5,8 +5,8 @@ import { DataProps } from "@/types";
 
 const Information = ({ information }: Pick<DataProps, "information">) => {
   return (
-    <div className="flex flex-col gap-8">
-      <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-3">
         <h2 className="leading-[1.15]">
           {/* 포지션에 맞게 문구를 수정해주세요. 혹은, 본인이 원하는 대로 문구를 바꿔주세요. */}
           비판을 사랑하는 소프트웨어 엔지니어{" "}
@@ -25,7 +25,9 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
           ))}
         </div>
       </div>
-      <Introduce markdown={information.markdown} />
+      <div className="flex flex-col gap-3">
+        <Introduce markdown={information.markdown} />
+      </div>
     </div>
   );
 };

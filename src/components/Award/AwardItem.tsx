@@ -8,7 +8,7 @@ const AwardItem = ({ name, date, organizer, description }: AwardProps) => {
           <h3>{name}</h3>
           <span>{date}</span>
         </div>
-        <span>{organizer}</span>
+        <span className="text-gray-500">{organizer}</span>
         <span className="whitespace-pre-wrap">{`${description}`}</span>
       </div>
     </div>

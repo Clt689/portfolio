@@ -21,7 +21,7 @@ const CertificateItem = ({ name, date, organizer, imgSrc }: CertificateProps) =>
               <h3>{name}</h3>
               <span>{date}</span>
             </div>
-            <span>{organizer}</span>
+            <span className="text-gray-500">{organizer}</span>
           </div>
         </div>
       </div>
