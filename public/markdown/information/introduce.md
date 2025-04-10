@@ -7,3 +7,6 @@
   ➡️ [소통 철학 💬](https://celestial-vise-b17.notion.site/1bb6fb311ab580adb5c4c096755e386c)
 
 - 모든 코드에는 **명확한 의도**가 있어야 한다고 믿습니다.
+- 컨퍼런스, 세미나, 웨비나 등 행사에 혼자서라도 참여하여 인사이트를 얻는 것을 좋아해요.
+
+  ➡️ [참여행사 목록](https://celestial-vise-b17.notion.site/17b6fb311ab580c4bb3ae538051c30dd)
