@@ -18,7 +18,7 @@ const CertificateItem = ({ name, date, organizer, imgSrc }: CertificateProps) =>
           )}
           <div className="flex flex-col gap-2">
             <div className="flex flex-col">
-              <h3>{name}</h3>
+              <h3 className="mb-1">{name}</h3>
               <span>{date}</span>
             </div>
             <span className="text-gray-500">{organizer}</span>
