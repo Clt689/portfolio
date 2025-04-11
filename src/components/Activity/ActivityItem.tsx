@@ -19,9 +19,11 @@ const ActivityItem = ({
           <span>{`${period[0]}${period[1] ? " - " + period[1] : ""}`}</span>
         </div>
         <span className="whitespace-pre-wrap">{`${description}`}</span>
-        <a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
-          <GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />
-        </a>
+        {repoUrl && (
+          <a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
+            <GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />
+          </a>
+        )}
       </div>
     </div>
   );

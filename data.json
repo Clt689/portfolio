@@ -49,6 +49,12 @@
       "period": ["2024. 02", "2024. 08"],
       "repoUrl": "https://github.com/Clt689/ModernJS_Deepdive",
       "description": "스터디 전반적인 기획 및 운영 담당"
+    },
+    {
+      "id": 1,
+      "name": "2025 오픈소스 컨트리뷰션 아카데미 멘티",
+      "period": ["2025. 04", "ing"],
+      "description": "장기효(캡틴판교)님이 Mentor로 계시는\nGit 활용 및 Next.js 뽀개기 프로젝트에 참여"
     }
   ],
 
