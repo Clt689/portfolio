@@ -57,6 +57,12 @@ export interface DataProps {
     description: string;
     period: string[];
   }[];
+  opensource: {
+    id: number;
+    name: string;
+    description: string;
+    period: string[];
+  }[];
   education: {
     id: number;
     name: string;

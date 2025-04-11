@@ -58,6 +58,23 @@
     }
   ],
 
+  "opensource": [
+    {
+      "id": 0,
+      "name": "onebite-next-challenge mission Repository",
+      "period": ["2025. 04"],
+      "webUrl": "https://github.com/winterlood/onebite-next-challenge/pull/1",
+      "description": "미션 정답용 css 파일 내 오타 수정"
+    },
+    {
+      "id": 1,
+      "name": "maeil-mail-fe Repository",
+      "period": ["2025. 04"],
+      "webUrl": "https://github.com/maeil-mail/maeil-mail-fe/pull/231",
+      "description": "문서 내 한국어 spacing 수정"
+    }
+  ],
+
   "education": [],
 
   "certificate": [
