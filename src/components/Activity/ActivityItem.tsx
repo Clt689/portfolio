@@ -9,7 +9,7 @@ const ActivityItem = ({
   name: string;
   period: string[];
   description: string;
-  repoUrl: string;
+  repoUrl?: string;
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
