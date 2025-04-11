@@ -10,13 +10,13 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
         <img
           alt="profile"
           src="/images/profile/profile_hblee.jpg"
-          width={180}
-          height={180}
-          className=" object-cover"
+          width={150}
+          height={150}
+          className=" object-cover rounded-2xl"
         />
 
         <div className="flex flex-col gap-5">
-          <h2 className="leading-[1.15]">
+          <h3 className="leading-[1.15]">
             안녕하세요,
             <br />
             <br />
@@ -24,7 +24,7 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
             비판을 사랑하는 소프트웨어 엔지니어{" "}
             <span className="text-PRIMARY font-semibold">{information.name}</span>
             입니다.
-          </h2>
+          </h3>
         </div>
       </div>
       <div className="flex gap-1">

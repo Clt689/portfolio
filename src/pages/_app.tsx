@@ -7,21 +7,21 @@ import type { AppProps } from "next/app";
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
-  title: "이한빈 | Front-End Dev",
-  description: "안녕하세요, 프론트엔드 개발자 홍길동입니다.",
+  title: "이한빈 | Software Engineer",
+  description: "안녕하세요, 비판을 사랑하는 소프트웨어 엔지니어 이한빈입니다..",
   canonical: "https://www.naver.com/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://www.naver.com/",
-    title: "이한빈 | Front-End Dev",
-    site_name: "이한빈 | Front-End Dev",
+    title: "이한빈 | Software Engineer",
+    site_name: "이한빈 | Software Engineer",
     images: [
       {
-        url: "/share.png",
-        width: 285,
-        height: 167,
-        alt: "이한빈 | Front-End Dev",
+        url: "/public/resume_thumbnail.png",
+        width: 686,
+        height: 250,
+        alt: "이한빈 | Software Engineer",
       },
     ],
   },
@@ -34,11 +34,11 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "application-name",
-      content: "이한빈 | Front-End Dev",
+      content: "이한빈 | Software Engineer",
     },
     {
       name: "msapplication-tooltip",
-      content: "이한빈 | Front-End Dev",
+      content: "이한빈 | Software Engineer",
     },
     {
       name: "viewport",
